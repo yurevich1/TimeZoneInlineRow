@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TimeZoneInlineRow_Example' do
+  pod 'TimeZoneInlineRow', :path => '../'
+
+  target 'TimeZoneInlineRow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
