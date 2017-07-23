@@ -1,0 +1,6 @@
+framework module TimeZoneInlineRow {
+  umbrella header "TimeZoneInlineRow-umbrella.h"
+
+  export *
+  module * { export * }
+}

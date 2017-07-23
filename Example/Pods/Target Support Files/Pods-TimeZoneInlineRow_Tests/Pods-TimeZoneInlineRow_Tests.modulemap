@@ -1,0 +1,6 @@
+framework module Pods_TimeZoneInlineRow_Tests {
+  umbrella header "Pods-TimeZoneInlineRow_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

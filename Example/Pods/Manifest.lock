@@ -1,0 +1,19 @@
+PODS:
+  - Eureka (3.1.0)
+  - TimeZoneInlineRow (1.0.0):
+    - Eureka (~> 3.0)
+
+DEPENDENCIES:
+  - TimeZoneInlineRow (from `../`)
+
+EXTERNAL SOURCES:
+  TimeZoneInlineRow:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Eureka: d6725c38d0dcdceaa331d1468f75e76315715ae0
+  TimeZoneInlineRow: aa29237ff52a4d07e7a6bafd1b4af22c8135a32d
+
+PODFILE CHECKSUM: 5aadb515278b7443e8d2ca860f39e8bb50c5501f
+
+COCOAPODS: 1.2.1
