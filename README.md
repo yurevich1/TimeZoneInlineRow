@@ -1,6 +1,6 @@
 # TimeZoneInlineRow
 
-[![CI Status](http://img.shields.io/travis/Vyacheslav Petrukhin/TimeZoneInlineRow.svg?style=flat)](https://travis-ci.org/Vyacheslav Petrukhin/TimeZoneInlineRow)
+[![CI Status](http://img.shields.io/travis/yurevich1/TimeZoneInlineRow.svg?style=flat)](https://travis-ci.org/yurevich1/TimeZoneInlineRow)
 [![Version](https://img.shields.io/cocoapods/v/TimeZoneInlineRow.svg?style=flat)](http://cocoapods.org/pods/TimeZoneInlineRow)
 [![License](https://img.shields.io/cocoapods/l/TimeZoneInlineRow.svg?style=flat)](http://cocoapods.org/pods/TimeZoneInlineRow)
 [![Platform](https://img.shields.io/cocoapods/p/TimeZoneInlineRow.svg?style=flat)](http://cocoapods.org/pods/TimeZoneInlineRow)

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeZoneInlineRow'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'This pod can help to integrate simple timezone picker for Eureka project'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Now it is possible to pick time zone using this picker and Eureka project.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Vyacheslav Petrukhin' => 'ps.voidmoon@gmail.com' }
-  s.source           = { :git => 'https://github.com/Vyacheslav Petrukhin/TimeZoneInlineRow.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/yurevich1/TimeZoneInlineRow.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
