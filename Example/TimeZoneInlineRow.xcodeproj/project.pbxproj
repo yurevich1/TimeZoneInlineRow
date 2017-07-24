@@ -14,6 +14,13 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8459F1091F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */; };
+		8459F1101F25C34800FB8150 /* TimeZoneInlineRowCarthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459F10F1F25C34800FB8150 /* TimeZoneInlineRowCarthageTests.swift */; };
+		8459F1121F25C34800FB8150 /* TimeZoneInlineRowCarthage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8459F1021F25C34700FB8150 /* TimeZoneInlineRowCarthage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8459F1151F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */; };
+		8459F1161F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8459F1201F25C48E00FB8150 /* TimeZoneInlineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8459F11F1F25C48E00FB8150 /* TimeZoneInlineRow.swift */; };
+		8459F1251F25C51400FB8150 /* Eureka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8459F1241F25C51400FB8150 /* Eureka.framework */; };
 		C254D7EE81D96B9D8E16A0C0 /* Pods_TimeZoneInlineRow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC6319581FD529C06F9D3EF /* Pods_TimeZoneInlineRow_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +32,47 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = TimeZoneInlineRow;
 		};
+		8459F10A1F25C34800FB8150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8459F0FF1F25C34600FB8150;
+			remoteInfo = TimeZoneInlineRowCarthage;
+		};
+		8459F10C1F25C34800FB8150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = TimeZoneInlineRow_Example;
+		};
+		8459F1131F25C34800FB8150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8459F0FF1F25C34600FB8150;
+			remoteInfo = TimeZoneInlineRowCarthage;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8459F11C1F25C34800FB8150 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8459F1161F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		021ECD4C7B2C2A9BCEB83830 /* Pods-TimeZoneInlineRow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneInlineRow_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneInlineRow_Example/Pods-TimeZoneInlineRow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0287688C5958DCF806ABD029 /* Pods-TimeZoneInlineRow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneInlineRow_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneInlineRow_Example/Pods-TimeZoneInlineRow_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		350C7149A95363864341A4A0 /* TimeZoneInlineRow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TimeZoneInlineRow.podspec; path = ../TimeZoneInlineRow.podspec; sourceTree = "<group>"; };
+		350C7149A95363864341A4A0 /* TimeZoneInlineRow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TimeZoneInlineRow.podspec; path = ../TimeZoneInlineRow.podspec; sourceTree = "<group>"; };
 		42D534EC6A8CF711A479F204 /* Pods_TimeZoneInlineRow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeZoneInlineRow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC6319581FD529C06F9D3EF /* Pods_TimeZoneInlineRow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeZoneInlineRow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TimeZoneInlineRow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeZoneInlineRow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,10 +85,19 @@
 		607FACE51AFB9204008FA782 /* TimeZoneInlineRow_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZoneInlineRow_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeZoneInlineRowCarthage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8459F1021F25C34700FB8150 /* TimeZoneInlineRowCarthage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeZoneInlineRowCarthage.h; sourceTree = "<group>"; };
+		8459F1031F25C34700FB8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8459F1081F25C34700FB8150 /* TimeZoneInlineRowCarthageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeZoneInlineRowCarthageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8459F10F1F25C34800FB8150 /* TimeZoneInlineRowCarthageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneInlineRowCarthageTests.swift; sourceTree = "<group>"; };
+		8459F1111F25C34800FB8150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8459F11F1F25C48E00FB8150 /* TimeZoneInlineRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimeZoneInlineRow.swift; path = ../../TimeZoneInlineRow/Classes/TimeZoneInlineRow.swift; sourceTree = "<group>"; };
+		8459F1221F25C4E500FB8150 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/TimeZoneInlineRow-fzxxknmajebxemfleuinrxhpoddz/Build/Products/Debug-iphonesimulator/Eureka/Eureka.framework"; sourceTree = "<group>"; };
+		8459F1241F25C51400FB8150 /* Eureka.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Eureka.framework; path = ../Carthage/Build/iOS/Eureka.framework; sourceTree = "<group>"; };
 		89BCF684061EC9406D2C5771 /* Pods-TimeZoneInlineRow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneInlineRow_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneInlineRow_Tests/Pods-TimeZoneInlineRow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9ED29666A47314A105D8F7AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9ED29666A47314A105D8F7AB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A53EBE8EF897375115590B7F /* Pods-TimeZoneInlineRow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeZoneInlineRow_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeZoneInlineRow_Tests/Pods-TimeZoneInlineRow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7F3918F982C37C186D6BED2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E7F3918F982C37C186D6BED2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8459F1151F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Frameworks */,
 				099EF65D75F2F827E4A6C541 /* Pods_TimeZoneInlineRow_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,12 +118,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8459F0FC1F25C34600FB8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459F1251F25C51400FB8150 /* Eureka.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8459F1051F25C34700FB8150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459F1091F25C34800FB8150 /* TimeZoneInlineRowCarthage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		05FC4F3FE27042E8896B2A88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8459F1241F25C51400FB8150 /* Eureka.framework */,
+				8459F1221F25C4E500FB8150 /* Eureka.framework */,
 				42D534EC6A8CF711A479F204 /* Pods_TimeZoneInlineRow_Example.framework */,
 				4AC6319581FD529C06F9D3EF /* Pods_TimeZoneInlineRow_Tests.framework */,
 			);
@@ -95,6 +165,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for TimeZoneInlineRow */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				8459F1011F25C34700FB8150 /* TimeZoneInlineRowCarthage */,
+				8459F10E1F25C34800FB8150 /* TimeZoneInlineRowCarthageTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				4D1EF0DD3F13EF923B3007D3 /* Pods */,
 				05FC4F3FE27042E8896B2A88 /* Frameworks */,
@@ -106,6 +178,8 @@
 			children = (
 				607FACD01AFB9204008FA782 /* TimeZoneInlineRow_Example.app */,
 				607FACE51AFB9204008FA782 /* TimeZoneInlineRow_Tests.xctest */,
+				8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */,
+				8459F1081F25C34700FB8150 /* TimeZoneInlineRowCarthageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +187,7 @@
 		607FACD21AFB9204008FA782 /* Example for TimeZoneInlineRow */ = {
 			isa = PBXGroup;
 			children = (
+				8459F1211F25C49600FB8150 /* Carthage build */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -159,7 +234,44 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		8459F1011F25C34700FB8150 /* TimeZoneInlineRowCarthage */ = {
+			isa = PBXGroup;
+			children = (
+				8459F1021F25C34700FB8150 /* TimeZoneInlineRowCarthage.h */,
+				8459F1031F25C34700FB8150 /* Info.plist */,
+			);
+			path = TimeZoneInlineRowCarthage;
+			sourceTree = "<group>";
+		};
+		8459F10E1F25C34800FB8150 /* TimeZoneInlineRowCarthageTests */ = {
+			isa = PBXGroup;
+			children = (
+				8459F10F1F25C34800FB8150 /* TimeZoneInlineRowCarthageTests.swift */,
+				8459F1111F25C34800FB8150 /* Info.plist */,
+			);
+			path = TimeZoneInlineRowCarthageTests;
+			sourceTree = "<group>";
+		};
+		8459F1211F25C49600FB8150 /* Carthage build */ = {
+			isa = PBXGroup;
+			children = (
+				8459F11F1F25C48E00FB8150 /* TimeZoneInlineRow.swift */,
+			);
+			name = "Carthage build";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8459F0FD1F25C34600FB8150 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459F1121F25C34800FB8150 /* TimeZoneInlineRowCarthage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		607FACCF1AFB9204008FA782 /* TimeZoneInlineRow_Example */ = {
@@ -172,10 +284,12 @@
 				607FACCE1AFB9204008FA782 /* Resources */,
 				B55847A0A5BCF4260640BF3D /* [CP] Embed Pods Frameworks */,
 				002D0D33FA6C1852C7C7962D /* [CP] Copy Pods Resources */,
+				8459F11C1F25C34800FB8150 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8459F1141F25C34800FB8150 /* PBXTargetDependency */,
 			);
 			name = TimeZoneInlineRow_Example;
 			productName = TimeZoneInlineRow;
@@ -203,13 +317,50 @@
 			productReference = 607FACE51AFB9204008FA782 /* TimeZoneInlineRow_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		8459F0FF1F25C34600FB8150 /* TimeZoneInlineRowCarthage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8459F11B1F25C34800FB8150 /* Build configuration list for PBXNativeTarget "TimeZoneInlineRowCarthage" */;
+			buildPhases = (
+				8459F0FB1F25C34600FB8150 /* Sources */,
+				8459F0FC1F25C34600FB8150 /* Frameworks */,
+				8459F0FD1F25C34600FB8150 /* Headers */,
+				8459F0FE1F25C34600FB8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeZoneInlineRowCarthage;
+			productName = TimeZoneInlineRowCarthage;
+			productReference = 8459F1001F25C34600FB8150 /* TimeZoneInlineRowCarthage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8459F1071F25C34700FB8150 /* TimeZoneInlineRowCarthageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8459F11D1F25C34800FB8150 /* Build configuration list for PBXNativeTarget "TimeZoneInlineRowCarthageTests" */;
+			buildPhases = (
+				8459F1041F25C34700FB8150 /* Sources */,
+				8459F1051F25C34700FB8150 /* Frameworks */,
+				8459F1061F25C34700FB8150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8459F10B1F25C34800FB8150 /* PBXTargetDependency */,
+				8459F10D1F25C34800FB8150 /* PBXTargetDependency */,
+			);
+			name = TimeZoneInlineRowCarthageTests;
+			productName = TimeZoneInlineRowCarthageTests;
+			productReference = 8459F1081F25C34700FB8150 /* TimeZoneInlineRowCarthageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -220,6 +371,17 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0820;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					8459F0FF1F25C34600FB8150 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					8459F1071F25C34700FB8150 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RAU2G7669N;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -239,6 +401,8 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* TimeZoneInlineRow_Example */,
 				607FACE41AFB9204008FA782 /* TimeZoneInlineRow_Tests */,
+				8459F0FF1F25C34600FB8150 /* TimeZoneInlineRowCarthage */,
+				8459F1071F25C34700FB8150 /* TimeZoneInlineRowCarthageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +419,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8459F0FE1F25C34600FB8150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8459F1061F25C34700FB8150 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,6 +552,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8459F0FB1F25C34600FB8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459F1201F25C48E00FB8150 /* TimeZoneInlineRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8459F1041F25C34700FB8150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8459F1101F25C34800FB8150 /* TimeZoneInlineRowCarthageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -381,6 +575,21 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* TimeZoneInlineRow_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		8459F10B1F25C34800FB8150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8459F0FF1F25C34600FB8150 /* TimeZoneInlineRowCarthage */;
+			targetProxy = 8459F10A1F25C34800FB8150 /* PBXContainerItemProxy */;
+		};
+		8459F10D1F25C34800FB8150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* TimeZoneInlineRow_Example */;
+			targetProxy = 8459F10C1F25C34800FB8150 /* PBXContainerItemProxy */;
+		};
+		8459F1141F25C34800FB8150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8459F0FF1F25C34600FB8150 /* TimeZoneInlineRowCarthage */;
+			targetProxy = 8459F1131F25C34800FB8150 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -495,6 +704,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0287688C5958DCF806ABD029 /* Pods-TimeZoneInlineRow_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeZoneInlineRow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -509,6 +719,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 021ECD4C7B2C2A9BCEB83830 /* Pods-TimeZoneInlineRow_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TimeZoneInlineRow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -555,6 +766,103 @@
 			};
 			name = Release;
 		};
+		8459F1171F25C34800FB8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/iOS;
+				INFOPLIST_FILE = TimeZoneInlineRowCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ps.TimeZoneInlineRowCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8459F1181F25C34800FB8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = $SRCROOT/../Carthage/Build/iOS;
+				INFOPLIST_FILE = TimeZoneInlineRowCarthage/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ps.TimeZoneInlineRowCarthage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8459F1191F25C34800FB8150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RAU2G7669N;
+				INFOPLIST_FILE = TimeZoneInlineRowCarthageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ps.TimeZoneInlineRowCarthageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeZoneInlineRow_Example.app/TimeZoneInlineRow_Example";
+			};
+			name = Debug;
+		};
+		8459F11A1F25C34800FB8150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEVELOPMENT_TEAM = RAU2G7669N;
+				INFOPLIST_FILE = TimeZoneInlineRowCarthageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ps.TimeZoneInlineRowCarthageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeZoneInlineRow_Example.app/TimeZoneInlineRow_Example";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -584,6 +892,22 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		8459F11B1F25C34800FB8150 /* Build configuration list for PBXNativeTarget "TimeZoneInlineRowCarthage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8459F1171F25C34800FB8150 /* Debug */,
+				8459F1181F25C34800FB8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8459F11D1F25C34800FB8150 /* Build configuration list for PBXNativeTarget "TimeZoneInlineRowCarthageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8459F1191F25C34800FB8150 /* Debug */,
+				8459F11A1F25C34800FB8150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

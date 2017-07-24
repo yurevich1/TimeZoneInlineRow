@@ -10,7 +10,7 @@ import UIKit
 import Eureka
 import TimeZoneInlineRow
 
-class ViewController: UIViewController {
+class ViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

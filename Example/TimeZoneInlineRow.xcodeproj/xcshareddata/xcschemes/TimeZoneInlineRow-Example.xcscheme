@@ -52,6 +52,16 @@
                ReferencedContainer = "container:TimeZoneInlineRow.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8459F1071F25C34700FB8150"
+               BuildableName = "TimeZoneInlineRowCarthageTests.xctest"
+               BlueprintName = "TimeZoneInlineRowCarthageTests"
+               ReferencedContainer = "container:TimeZoneInlineRow.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

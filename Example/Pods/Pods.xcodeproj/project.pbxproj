@@ -119,10 +119,10 @@
 		0F0B4FE98C82F1B408AC69958FD178F5 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Source/Core/Cell.swift; sourceTree = "<group>"; };
 		0F1DC9BC83C7D9257CFD079DFB222B4B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1056236B3AA08C428B0407CAC53FEE3C /* Pods-TimeZoneInlineRow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeZoneInlineRow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		106C6D3197EA6CD4E054B3666425FA41 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Eureka.modulemap; sourceTree = "<group>"; };
+		106C6D3197EA6CD4E054B3666425FA41 /* Eureka.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eureka.modulemap; sourceTree = "<group>"; };
 		118780A329BA70EF5B39A65A66DFC098 /* MultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipleSelectorRow.swift; path = Source/Rows/MultipleSelectorRow.swift; sourceTree = "<group>"; };
 		149B49D8C51E85DCFB17B18C2328E93F /* Pods-TimeZoneInlineRow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeZoneInlineRow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1852B19DE26D17A2E3565859F7C0C9EF /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Eureka.framework; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1852B19DE26D17A2E3565859F7C0C9EF /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CDDD6A36FBB96EE27A0A923036B1DAC /* InlineRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InlineRowType.swift; path = Source/Core/InlineRowType.swift; sourceTree = "<group>"; };
 		268DD92239FA75D2FF40DB401A6C6A4D /* GenericMultipleSelectorRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GenericMultipleSelectorRow.swift; path = Source/Rows/Common/GenericMultipleSelectorRow.swift; sourceTree = "<group>"; };
 		2AA07BA3A7333A325B76B3916527077B /* RowControllerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowControllerType.swift; path = Source/Core/RowControllerType.swift; sourceTree = "<group>"; };
@@ -140,7 +140,7 @@
 		46A5120F592079153C54231EB330C42B /* OptionsRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OptionsRow.swift; path = Source/Rows/Common/OptionsRow.swift; sourceTree = "<group>"; };
 		46C6FC522E0868EAA6D8F3F31FEF68C9 /* AlertRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlertRow.swift; path = Source/Rows/AlertRow.swift; sourceTree = "<group>"; };
 		473C980F80FC135F090DD43CC836166B /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Source/Core/Helpers.swift; sourceTree = "<group>"; };
-		58E2DFABA5D765DBD883A3536AE422E3 /* Pods-TimeZoneInlineRow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimeZoneInlineRow_Tests.modulemap"; sourceTree = "<group>"; };
+		58E2DFABA5D765DBD883A3536AE422E3 /* Pods-TimeZoneInlineRow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeZoneInlineRow_Tests.modulemap"; sourceTree = "<group>"; };
 		5A53BB194720F934DA44BC78DA608F18 /* DatePickerRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerRow.swift; path = Source/Rows/DatePickerRow.swift; sourceTree = "<group>"; };
 		5F405D8EA3A9A7C1DBF52D821E564DF1 /* TimeZoneInlineRow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeZoneInlineRow-dummy.m"; sourceTree = "<group>"; };
 		5FE383E03C274D99C3F5B3FB5F225B40 /* Pods-TimeZoneInlineRow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeZoneInlineRow_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 		6727CC64EFE4C59C6A3B89F752123D31 /* PickerInputRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PickerInputRow.swift; path = Source/Rows/PickerInputRow.swift; sourceTree = "<group>"; };
 		6768A2C2A9932179E2D7ED35D0963A15 /* TimeZoneInlineRow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeZoneInlineRow-prefix.pch"; sourceTree = "<group>"; };
 		67D4563A4A1F853F7CFD3E339F343550 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Source/Core/Core.swift; sourceTree = "<group>"; };
-		6A00A7C9F873F63EACB75B157535EA3C /* Pods_TimeZoneInlineRow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeZoneInlineRow_Example.framework; path = "Pods-TimeZoneInlineRow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A00A7C9F873F63EACB75B157535EA3C /* Pods_TimeZoneInlineRow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeZoneInlineRow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A910E19FB192D81E8FBE2C876D13AB8 /* CheckRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckRow.swift; path = Source/Rows/CheckRow.swift; sourceTree = "<group>"; };
 		6C2E1236D54973ADB97F9B881FF886EA /* Pods-TimeZoneInlineRow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeZoneInlineRow_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6D5112E5808DCDD5BC1D1CD9A1EDDAD3 /* SelectableRowType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectableRowType.swift; path = Source/Core/SelectableRowType.swift; sourceTree = "<group>"; };
@@ -163,13 +163,13 @@
 		7F82F3792E13B3A45423424E1AE589CE /* Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protocols.swift; path = Source/Rows/Common/Protocols.swift; sourceTree = "<group>"; };
 		846CD6A9BA18EC2797BCE781BDEA6EAF /* RuleRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRange.swift; path = Source/Validations/RuleRange.swift; sourceTree = "<group>"; };
 		854A11C63AAC5631A848B368487D514D /* Eureka.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Eureka.bundle; path = Source/Resources/Eureka.bundle; sourceTree = "<group>"; };
-		858216D59DB833936B98DCC3DB1A7F8E /* Pods-TimeZoneInlineRow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TimeZoneInlineRow_Example.modulemap"; sourceTree = "<group>"; };
+		858216D59DB833936B98DCC3DB1A7F8E /* Pods-TimeZoneInlineRow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TimeZoneInlineRow_Example.modulemap"; sourceTree = "<group>"; };
 		863B1B1175344050E756CC2884FFC955 /* TimeZoneInlineRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeZoneInlineRow.swift; sourceTree = "<group>"; };
 		8B184AD020CCD640681186A042CA4033 /* RuleURL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleURL.swift; path = Source/Validations/RuleURL.swift; sourceTree = "<group>"; };
 		8C57CDEC295C5C824C29DC3367E7DA9C /* Pods-TimeZoneInlineRow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeZoneInlineRow_Example-umbrella.h"; sourceTree = "<group>"; };
 		902A4E039A5F66A1059919E77F7FC0A9 /* Pods-TimeZoneInlineRow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeZoneInlineRow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		92A8ABAAFE7C8BC04DE398B70A60C0F9 /* CellType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellType.swift; path = Source/Core/CellType.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C26C04637908660634CDC6AE15A340B /* Pods-TimeZoneInlineRow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeZoneInlineRow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9D0C19F11F32C912C1014479341867D7 /* Eureka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eureka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E776FA69BEDDA1817616DD99915DBC1 /* Pods-TimeZoneInlineRow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeZoneInlineRow_Example-dummy.m"; sourceTree = "<group>"; };
@@ -189,7 +189,7 @@
 		BE7C1FE6CE7ABFF09CFA2B14F38BC89F /* RuleEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleEmail.swift; path = Source/Validations/RuleEmail.swift; sourceTree = "<group>"; };
 		C16B24F41DC90164A23D2DF7C30BEBCC /* RowProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RowProtocols.swift; path = Source/Core/RowProtocols.swift; sourceTree = "<group>"; };
 		C1C5939AD8AA7CFF2E23EC8849455CBD /* Eureka-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eureka-dummy.m"; sourceTree = "<group>"; };
-		C1CCD6F967B8E67DE3FD2D3669B0D992 /* TimeZoneInlineRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeZoneInlineRow.framework; path = TimeZoneInlineRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CCD6F967B8E67DE3FD2D3669B0D992 /* TimeZoneInlineRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TimeZoneInlineRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4947FB425D9C8441324673F1FE13ABB /* RuleRegExp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RuleRegExp.swift; path = Source/Validations/RuleRegExp.swift; sourceTree = "<group>"; };
 		C51650F1D6CC6FE4DDAEA6B3D7541437 /* StepperRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StepperRow.swift; path = Source/Rows/StepperRow.swift; sourceTree = "<group>"; };
 		C583BFB6DF3CBC47FD007C0D56B92244 /* Pods-TimeZoneInlineRow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeZoneInlineRow_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -207,11 +207,11 @@
 		E3DADE77A15042A38414F74EE2C3642C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA68B4ED91FB7D839C8A6F43A77F5566 /* Eureka.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eureka.xcconfig; sourceTree = "<group>"; };
 		EC337987FB547FED6C50CA8070746F1F /* Row.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Row.swift; path = Source/Core/Row.swift; sourceTree = "<group>"; };
-		EC87316A986DE75187BCCD600533D57F /* Pods_TimeZoneInlineRow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeZoneInlineRow_Tests.framework; path = "Pods-TimeZoneInlineRow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC87316A986DE75187BCCD600533D57F /* Pods_TimeZoneInlineRow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeZoneInlineRow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F664EEBB331BBE90AB196545BFAEC0DB /* BaseRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseRow.swift; path = Source/Core/BaseRow.swift; sourceTree = "<group>"; };
 		F7E0856E420F8483338756112F1788ED /* SliderRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderRow.swift; path = Source/Rows/SliderRow.swift; sourceTree = "<group>"; };
 		FE25BF6C7BE241501F2FFB7F2C9F611D /* DateInlineFieldRow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInlineFieldRow.swift; path = Source/Rows/Common/DateInlineFieldRow.swift; sourceTree = "<group>"; };
-		FEA7210243EF39000254F4F6035DB521 /* TimeZoneInlineRow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TimeZoneInlineRow.modulemap; sourceTree = "<group>"; };
+		FEA7210243EF39000254F4F6035DB521 /* TimeZoneInlineRow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TimeZoneInlineRow.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,7 +336,6 @@
 			children = (
 				863B1B1175344050E756CC2884FFC955 /* TimeZoneInlineRow.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -423,7 +422,6 @@
 				3DDC27541CF2167A70C760C43401F2A6 /* Resources */,
 				EA029E35D27FC8714A214D1068ED9BD8 /* Support Files */,
 			);
-			name = Eureka;
 			path = Eureka;
 			sourceTree = "<group>";
 		};
@@ -432,7 +430,6 @@
 			children = (
 				8E5F109E4E3D09CF4B81FFFCF0CD1625 /* Classes */,
 			);
-			name = TimeZoneInlineRow;
 			path = TimeZoneInlineRow;
 			sourceTree = "<group>";
 		};
