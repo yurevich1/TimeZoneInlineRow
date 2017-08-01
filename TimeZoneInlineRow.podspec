@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TimeZoneInlineRow'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'This pod can help to integrate simple timezone picker for Eureka project'
 
 # This description is used to generate tags and improve search results.

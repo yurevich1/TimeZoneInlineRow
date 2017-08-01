@@ -1,5 +1,5 @@
 //
-//  TimeZoneInlineROw.swift
+//  TimeZoneInlineRow.swift
 //  TimeZoneInlineRow
 //
 //  Created by Vyacheslav Petrukhin on 12.09.16.
@@ -35,9 +35,7 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
         editingAccessoryType = .none
         simplePicker.delegate = self
         simplePicker.dataSource = self
-        //        simplePicker.datePickerMode = datePickerMode()
     }
-    
     
     open override func update() {
         super.update()
@@ -45,7 +43,6 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
         simplePicker.isUserInteractionEnabled = !row.isDisabled
         detailTextLabel?.text = nil
         textLabel?.text = nil
-        
         
         simplePicker.selectRow(timezones.index(of: row.value?.identifier ?? TimeZone.current.identifier) ?? 0, inComponent: 0, animated: false)
         
@@ -57,7 +54,6 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
     func TimeZonePickerValueChanged(_ sender: UIPickerView){
         row.value = TimeZone(identifier: timezones[sender.selectedRow(inComponent: 0)]) ?? TimeZone.current
         detailTextLabel?.text = row.displayValueFor?(row.value)
-        
     }
     
     open override func cellCanBecomeFirstResponder() -> Bool {
@@ -68,6 +64,7 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
     }
     
     //MARK: - Delegates and data sources
+    
     //MARK: Data Sources
     open func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
@@ -75,7 +72,6 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
     open func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return timezones.count
     }
-    
     
     //MARK: Delegates
     open func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
@@ -90,23 +86,17 @@ open class TimeZonePickerCell : Cell<TimeZone>, CellType, UIPickerViewDataSource
 
 open class _TimeZonePickerRow : Row<TimeZonePickerCell> {
     
-    
     required public init(tag: String?) {
         super.init(tag: tag)
-        
         displayValueFor = nil
     }
 }
 
-/// A row with an Date as value where the user can select date and time directly.
 public final class TimeZonePickerRow : _TimeZonePickerRow, RowType {
     public required init(tag: String?) {
         super.init(tag: tag)
     }
 }
-
-
-
 
 open class TimeZonesCell : Cell<String>, CellType, UIPickerViewDataSource, UIPickerViewDelegate {
     
@@ -148,7 +138,7 @@ open class TimeZonesCell : Cell<String>, CellType, UIPickerViewDataSource, UIPic
     }
     
     override open var inputView : UIView? {
-        if let _ = row.value{
+        if let _ = row.value {
             simplePicker.selectedRow(inComponent: 0)
         }
         return simplePicker
@@ -168,9 +158,9 @@ open class TimeZonesCell : Cell<String>, CellType, UIPickerViewDataSource, UIPic
         return !row.isDisabled
     }
     
-    
     //MARK: - Delegates and data sources
     //MARK: Data Sources
+    
     open func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
@@ -179,6 +169,7 @@ open class TimeZonesCell : Cell<String>, CellType, UIPickerViewDataSource, UIPic
     }
     
     //MARK: Delegates
+    
     open func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return timezones[row]
     }
@@ -186,34 +177,25 @@ open class TimeZonesCell : Cell<String>, CellType, UIPickerViewDataSource, UIPic
     open func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         TimeZonePickerValueChanged(pickerView)
     }
-    
-    
+
 }
 
-
 open class _TimeZonesFieldRow: Row<TimeZonesCell>, NoValueDisplayTextConformance {
-    
-    
+
     open var noValueDisplayText: String? = nil
     
     required public init(tag: String?) {
         super.init(tag: tag)
-        displayValueFor = { /*[unowned self] */ value in
+        displayValueFor = { value in
             guard let val = value else { return nil }
-            
             return val
         }
     }
 }
 
-
 //MARK: TimeZoneInlineRow
 
 public typealias TimeZoneInlineRow = TimeZoneInlineRow_
-
-
-
-/// A row with an String as value where the user can select a date from an inline picker view.
 
 open class TimeZoneInlineCell : Cell<TimeZone>, CellType {
     
@@ -244,16 +226,14 @@ open class TimeZoneInlineCell : Cell<TimeZone>, CellType {
 
 open class _TimeZoneInlineFieldRow: Row<TimeZoneInlineCell>, NoValueDisplayTextConformance {
     
-    
     open var noValueDisplayText: String?
     
     required public init(tag: String?) {
         super.init(tag: tag)
         
-        
-        displayValueFor = { value in //[unowned self] value in
+        displayValueFor = { value in
             guard let val = value else { return nil }
-            return val.identifier//.toString()
+            return val.identifier
         }
     }
 }
@@ -264,8 +244,6 @@ open class _TimeZoneInlineRow: _TimeZoneInlineFieldRow {
     
     public required init(tag: String?) {
         super.init(tag: tag)
-        
-        
     }
     
     open func setupInlineRow(_ inlineRow: TimeZonePickerRow) {
@@ -275,14 +253,15 @@ open class _TimeZoneInlineRow: _TimeZoneInlineFieldRow {
 
 public final class TimeZoneInlineRow_: _TimeZoneInlineRow, RowType, InlineRowType {
     
-    
     required public init(tag: String?) {
         super.init(tag: tag)
         onExpandInlineRow { cell, row, _ in
             let color = cell.detailTextLabel?.textColor
+            
             row.onCollapseInlineRow { cell, _, _ in
                 cell.detailTextLabel?.textColor = color
             }
+            
             cell.detailTextLabel?.textColor = cell.tintColor
         }
     }
